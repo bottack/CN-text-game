@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T13:36:06.726Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="KyHTKB21fRhuDhF5J0Pk" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-20T13:54:32.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="EXgTkflTzTyEqz-JQoHj" version="14.9.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1038" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -98,70 +98,12 @@
         <mxCell id="eDwzxRTO2weHUJlOFBW0-16" value="OSWALD IN BOOK DEPOSITORY" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="345" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="eDwzxRTO2weHUJlOFBW0-18">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="405" y="630" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="eDwzxRTO2weHUJlOFBW0-18" target="VD_OZxI0I5bTZ68Qy7gw-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="540" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.667;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="eDwzxRTO2weHUJlOFBW0-18" target="VD_OZxI0I5bTZ68Qy7gw-11">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="540" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eDwzxRTO2weHUJlOFBW0-18" value="CHOICE1" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="345" y="510" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="VD_OZxI0I5bTZ68Qy7gw-8" value="JFK: MOTORCADE AND ASSASSINATION" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="345" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VD_OZxI0I5bTZ68Qy7gw-10" target="VD_OZxI0I5bTZ68Qy7gw-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VD_OZxI0I5bTZ68Qy7gw-10" target="VD_OZxI0I5bTZ68Qy7gw-15">
+        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VD_OZxI0I5bTZ68Qy7gw-18">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="90" y="630" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-10" value="GET SCARED AND LEAVE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="200" y="600" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VD_OZxI0I5bTZ68Qy7gw-11" target="VD_OZxI0I5bTZ68Qy7gw-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VD_OZxI0I5bTZ68Qy7gw-11">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="690" y="680" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-11" value="STEEL NERVES" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="480" y="600" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VD_OZxI0I5bTZ68Qy7gw-14" target="VD_OZxI0I5bTZ68Qy7gw-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-14" value="CHECK RIFLE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="340" y="600" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-15" value="GO HOME TO WIFE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="30" y="690" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-16" value="ASSASSINATED BY CIA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="690" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VD_OZxI0I5bTZ68Qy7gw-17" target="VD_OZxI0I5bTZ68Qy7gw-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-17" value="INACCURATE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="340" y="690" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VD_OZxI0I5bTZ68Qy7gw-18" target="VD_OZxI0I5bTZ68Qy7gw-11">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="780" y="640" as="targetPoint" />
+            <mxPoint x="600" y="630" as="targetPoint" />
             <Array as="points">
               <mxPoint x="540" y="770" />
               <mxPoint x="710" y="770" />
@@ -171,22 +113,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-18" value="PANIC ATTACK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="480" y="690" width="120" height="60" as="geometry" />
+        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-29" value="PATH 1&lt;br&gt;MICHAEL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VD_OZxI0I5bTZ68Qy7gw-19" target="VD_OZxI0I5bTZ68Qy7gw-25">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="690" y="830" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="690" y="815" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-30" value="PATH 2&lt;br&gt;SASHA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-19" value="CALM AND RELAXED" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="630" y="690" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-25" value="SHOOT&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="340" y="770" width="120" height="60" as="geometry" />
+        <mxCell id="VD_OZxI0I5bTZ68Qy7gw-31" value="PATH 3&lt;br&gt;JAMES" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="570" y="600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
