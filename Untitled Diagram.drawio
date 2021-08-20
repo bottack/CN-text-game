@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T17:13:30.008Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="5B0rUa5tf2IaiNG9KzUR" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-20T17:14:20.524Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="UysFDUB2Fjs7E39mFlal" version="14.9.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1554" dy="2163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -297,7 +297,7 @@
         <mxCell id="qyjDhQYYs3X6qJy0yQB4-30" value="Survive: No evidence" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="674" y="455" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qyjDhQYYs3X6qJy0yQB4-31" value="Death: Lone actor" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="qyjDhQYYs3X6qJy0yQB4-31" value="Death: Lone actor" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#D4E1F5;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="674" y="495" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qyjDhQYYs3X6qJy0yQB4-32" value="Death: CIA Conspiiracy" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
