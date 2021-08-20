@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T15:50:47.390Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="CHHU2J1mKFZ740y6dQW4" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-20T15:53:10.740Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="EXBfkaBBrD2kACe2E4Mg" version="14.9.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="814" dy="2577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -294,13 +294,13 @@
         <mxCell id="qyjDhQYYs3X6qJy0yQB4-27" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#D4E1F5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="610" y="1660" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="qyjDhQYYs3X6qJy0yQB4-30" value="Surrvive" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="qyjDhQYYs3X6qJy0yQB4-30" value="Survive: No evidence" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="690" y="1615" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qyjDhQYYs3X6qJy0yQB4-31" value="Death: Acted &amp;nbsp;with CIA" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="qyjDhQYYs3X6qJy0yQB4-31" value="Death: Lone actor" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="690" y="1655" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qyjDhQYYs3X6qJy0yQB4-32" value="Death: Acted alone" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="qyjDhQYYs3X6qJy0yQB4-32" value="Death: CIA Conspiiracy" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="690" y="1695" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qyjDhQYYs3X6qJy0yQB4-33" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#00FF00;rotation=-180;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
