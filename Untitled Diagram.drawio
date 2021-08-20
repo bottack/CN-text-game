@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T11:30:08.582Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="_EApczZHsVUoTjFzzHoN" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-20T11:33:28.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="EncrhtnO18FRw708Eg0r" version="14.9.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1038" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,14 +61,48 @@
         <mxCell id="eDwzxRTO2weHUJlOFBW0-3" value="DESIGN PHASE 1&lt;br&gt;EACH MEMBER DESIGNS A CHARACTER AND STORY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="330" y="200" width="150" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="eDwzxRTO2weHUJlOFBW0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="eDwzxRTO2weHUJlOFBW0-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="480" />
+              <mxPoint x="400" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="eDwzxRTO2weHUJlOFBW0-10" value="MICHAEL:&lt;br&gt;THIRD ASSASSIN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eDwzxRTO2weHUJlOFBW0-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="eDwzxRTO2weHUJlOFBW0-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="400" />
+              <mxPoint x="600" y="400" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="eDwzxRTO2weHUJlOFBW0-11" value="PRINCE:&lt;br&gt;GRASSY GNOLL MAN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="540" y="260" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="eDwzxRTO2weHUJlOFBW0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="eDwzxRTO2weHUJlOFBW0-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="eDwzxRTO2weHUJlOFBW0-12" value="JAMES:&lt;br&gt;JFK, LEE HARVEY OSWALD&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="340" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="345" y="320" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eDwzxRTO2weHUJlOFBW0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="eDwzxRTO2weHUJlOFBW0-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eDwzxRTO2weHUJlOFBW0-16" value="DESIGN PHASE2:&lt;br&gt;PLANNING GAME FLOW" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="345" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eDwzxRTO2weHUJlOFBW0-18" value="FIRST SCREEN:&lt;br&gt;INTRO AND FIRST CHOICE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="345" y="570" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
