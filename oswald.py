@@ -1015,6 +1015,8 @@ start()
 
 # The code block below pertains to the 3rd part: The arrest. Subject to changes, text art etc. The code block above has not been modified
 
+# The code block below pertains to the 3rd part: The arrest. Subject to changes, text art etc. The code block above has not been modified
+
 def game_title():
     print("\n")
     print("▀█▀ █░█ █▀▀     █▀█ █▀ █░█░█ ▄▀█ █░░ █▀▄   █▀█ █▀▀ █▀▀ █▀█ █▀█ █▀▄ ▀   ▀█▀ █░█ █▀▀   ▄▀█ █▀█ █▀█ █▀▀ █▀ ▀█▀")
@@ -1055,9 +1057,9 @@ def the_arrest():
 
 def dealey_plaza():
     print("\n23/11/1963, 12:40:")
-    print("\nYou run acrross Dealey Plaza and two city buses approach going in opposite directions.")
+    print("\nYou run acrross Dealey Plaza and two City Buses approach going in opposite directions.")
     print("\nBus 1 is headed to North Oak Cliff and Bus 2 is headed to South Oak Cliff.") 
-    print("\nWhich bus do you take? ")
+    print("\nWhich Bus do you take? ")
     print("\n1. Bus 1")
     print("\n2. Bus 2")
     
@@ -1071,8 +1073,9 @@ def dealey_plaza():
 def bus1():
     print("\n23/11/1963, 12:50:") 
     print("\nYou're stuck in heavy traffic, escape is unlikely and paranoia thickens.") 
-    print("\nEveryone is looking at you, whispering. You are disgruntled and frustrated.")
-    print("\n1. You ask the driver to let you transfer and take a taxi")
+    print("\nEveryone is looking at you, whispering.") 
+    print("\nYou are disgruntled and frustrated so you are going to...")
+    print("\n1. You ask the driver to let you transfer and take a Taxi Cab")
     print("\n2. You stay on the bus, it is far too risky to stay in public")
 
     answer = input("\n")
@@ -1091,9 +1094,10 @@ def transfer1_2():
 def bus2():
     print("\n23/11/1963, 12:50:") 
     print("\nYou're stuck in heavy traffic, escape is unlikely and paranoia thickens.") 
-    print("\nEveryone is looking at you, whispering. You are disgruntled and frustrated.")
-    print("\n1. You ask the driver to let you transfer and take a taxi")
-    print("\n2. You stay on the bus, it is far too risky to stay in public")
+    print("\nEveryone is looking at you, whispering.") 
+    print("\nYou are disgruntled and frustrated so you are going to...")
+    print("\n1. Ask the driver to let you transfer and take a Taxi Cab")
+    print("\n2. Stay on the bus, it is far too risky to stay in public")
 
     answer = input("\n")
 
@@ -1107,12 +1111,13 @@ def transfer2_1():
 
 def transfer2_2():
     game_over()
-    print("\nGame Over. State Police raided the bus and you were shot and killed on sight")
+    print("\nGame Over. State Police raided the bus and you were shot and killed on sight!")
 
 def home():
     print("\n23/11/1963, 13:00:") 
     print("\nYou arrive at your stay in. The House keeper Earlene Roberts greets you and makes small talk.")
-    print("\nThere is no time to waste, every second counts and Police sirens are everywhere...")
+    print("\nThere is no time to waste, every second counts and Police sirens are rampant everywhere.")
+    print("\nYou decide to...")
     print("\n1. Speak to Earlene, pretend you don't know anything, gather some belongings and catch the next Bus out of town")
     print("\n2. Ignore Earlene, quickly change clothes, grab your gun, money and catch the next Bus out of town")
 
@@ -1125,9 +1130,9 @@ def home():
 
 def bus_stop1():
     print("\n23/11/1963, 13:15:") 
-    print("\nYou're at the bus stop and a Police Car drives past you at high speed.")
-    print("The car double backs and turns around and steers towards you.")
-    print("\n The Police Car approcahes and pulls up next you you")
+    print("\nYou're at the bus stop and a Dallas State Police Car drives past you at high speed.")
+    print("The car doubles back and turns around and steers towards you.")
+    print("\n The Police Car approcahes and pulls up some feet ahead of you")
     print("\n\As the blinding lights fill you with despair the officer driving speak from the window.")
     print("\nHe's shouting but you can not hear a thing from the siren.")
     print("\nThe driver's side door opens as the Police Officer steps out")
@@ -1138,22 +1143,22 @@ def bus_stop1():
 
     if "1" in answer:
         game_cleared()
-        print("\nOfficer J. D. Tippit was warning you to dissarm and drop to the ground!")
-        print("\nYou were identified from the description broadcasted on State radio!")
+        print("\nDalls Police Officer J. D. Tippit was warning you to dissarm and drop to the ground!")
+        print("\nYou were identified from the description broadcasted on State radio...")
     elif "2" in answer:
         game_over()
-        print("\nYou left your gun back at your stay-in. Dallas Police Officer J. D. Tippit shoots you dead!") 
+        print("\nYou left your gun back at your stay-in. Dallas State Police Officer J. D. Tippit shot you dead.") 
 
 def bus_stop2():
     print("\n23/11/1963, 13:15:") 
-    print("\nYou're at the bus stop and a Police Car drives past you at high speed.")
-    print("The car double backs and turns around and steers towards you.")
-    print("\n The Police Car approcahes and pulls up next you you")
-    print("\n\As the blinding lights fill you with despair the officer driving speak from the window.")
-    print("\nHe's shouting but you can not hear a thing from the siren.")
-    print("\nThe driver's side door opens as the Police Officer steps out")
+    print("\nYou are at the Bus Stop and a Dallas State Police Car drives past you at high speed.")
+    print("\nThe car doubles back, turns around and steers towards you.")
+    print("\n The Police Car approcahes and pulls up some feet ahead of you")
+    print("\nAs the blinding lights fill you with despair and the screeching siren fills your ear the officer driving speaks from the window.")
+    print("\nHe's shouting but you can not hear a thing due to the siren.")
+    print("\nThe driver's side door opens as the Police Officer steps out...")
     print("\n1. The Officer just want's to ask something so you play along ")
-    print("\n2. You are not taking any chances and fire as many rounds as you can at the Police Officer")
+    print("\n2. You are not taking any chances and fire as many rounds as you can into the vehicler")
 
     answer = input("\n")
 
@@ -1164,11 +1169,12 @@ def bus_stop2():
 
 def jd_tippit1():
     game_over
-    print("\nGame Over. Officer J. D. Tippit was warning you to dissarm and drop to the ground!") 
+    print("\nGame Over. Dallas State Officer J. D. Tippit was warning you to dissarm and drop to the ground!") 
     
 def jd_tippit2():
-    print("\nYou have killed a State Police Officer, 4 founds went off someone must have heard it all!")
-    print("\n1. Thre are no signs of pursuing units. Look around for witnesses and tie up all loose ends, The getaway will be clean.")
+    print("\nYou have killed a State Police Officer, 4 founds went off someone must have heard it all...")
+    print("\nThere are no signs of pursuing Police Units so you...")
+    print("\n1. Look around for witnesses and tie up all loose ends -- the getaway will be clean.")
     print("\n2. Flee. Run as far away from the area as possible. There's a shoe store nearby you can blend in!")
 
     answer = input("\n")
@@ -1180,18 +1186,19 @@ def jd_tippit2():
 
 def shooting1():
     game_over()
-    print("\nGame Over. You were shot dead by Dallas State Police's emrgency respose unit!")
+    print("\nGame Over. You were shot dead by Dallas State Police's Emrgency Respose Unit!")
     print("\nYou acted suspicious, the house keeper Earlene Roberts called the Police immediately after she saw you take your gun and run.")
     print("\nShe noticed the clothes you wore when you came home fit the suspect's description")
-    print("\nShe watched you gun down Officer J. D. Tippit in cold blood from the window.")
-    print("\nAn undercover second unit was watching you across from the crossed the junction and took you out")
+    print("\nEarlene watched you gun down Officer J. D. Tippit in cold blood from the window.")
+    print("\nThe Emergency Response Unit watched you across from the across the junction and responded with Leathal Force")
 
 def shooting2():
     print("\n23/11/1963, 13:30:") 
-    print("\nYou run around the block and stumble into Geoge's Shoe Store.")
-    print("\nIt's quite busy and the manager Jonny Brewer greets you...")
-    print("\nThe sirens get louder, there are more police cars out there than at the station.")
-    print("\nEveryone is talking about the shooting at the Motorcase and you're getting sloppy, tired and scared.")
+    print("\nYou run around the block and stumble into George's Shoe Store.")
+    print("\nIt's quite busy and the manager Jonny Brewer greets you.")
+    print("\nAs sirens get louder, more and more police cars survey the area.")
+    print("\nEveryone in the store is talking about the shooting at the Motorcade.")
+    print("\nYou are getting sloppy, tired and scared. You have made your mind up...")
     print("\n1. You have come too far to let it end here, take a hostage and take control. This will work!")
     print("\n2. Hang back for a bit then leave for the Theatre down the road that should be perfect cover. Nobody should know about the shooting in there.")
 
@@ -1204,14 +1211,15 @@ def shooting2():
 
 def shoe_store1():
     game_over()
-    print("\nGame Over. Jonny could smell the panic off you and shot you the second you drew your gun.")
+    print("\nGame Over. Jonny could smell the danger off you as soon as you walked in, he shoots you the second you reach for your gun.")
 
 def shoe_store2():
     print("\n23/11/1963, 13:40:") 
-    print("\nYou run down to the Theatre and there is nobody at the Ticket Desk so you stroll in.")
-    print("\nPolice Officer Nick McDonald sees this and follows you inside to stops you")
-    print("\n1 Don't give the Police Offer a chance to draw his weapon, shoot first! ")
-    print("\n2 You have done a lot of running, you are tired. Surrender and turn yourself in")
+    print("\nYou run down to the Texas Theatre and there is nobody at the Ticket Desk so you stroll on in.")
+    print("\nDallas State Police Officer Nick McDonald sees this and follows you inside")
+    print("\nHis foot steps echo behind yours so you clasp at your gun")
+    print("\n1 Do not give the Police Offer a chance to draw his weapon, shoot first! ")
+    print("\n2 You have done a lot of running, you are tired and out of ideas. You put hands up and surrender")
 
     answer = input("\n")
 
@@ -1227,7 +1235,8 @@ def theatre1():
 
 def theatre2():
     game_cleared()
-    print("\n You're in custody. Caught but alive!")
+    print("\n")
+    print("\n You are now in custody. Caught but alive.")
 
 game_title()
 the_arrest()
