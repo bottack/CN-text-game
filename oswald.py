@@ -1015,8 +1015,6 @@ start()
 
 # The code block below pertains to the 3rd part: The arrest. Subject to changes, text art etc. The code block above has not been modified
 
-# The code block below pertains to the 3rd part: The arrest. Subject to changes, text art etc. The code block above has not been modified
-
 def game_title():
     print("\n")
     print("▀█▀ █░█ █▀▀     █▀█ █▀ █░█░█ ▄▀█ █░░ █▀▄   █▀█ █▀▀ █▀▀ █▀█ █▀█ █▀▄ ▀   ▀█▀ █░█ █▀▀   ▄▀█ █▀█ █▀█ █▀▀ █▀ ▀█▀")
@@ -1069,6 +1067,8 @@ def dealey_plaza():
         bus1()
     elif "2" in answer:
         bus2()
+    else:
+        dealey_plaza()
 
 def bus1():
     print("\n23/11/1963, 12:50:") 
@@ -1084,6 +1084,8 @@ def bus1():
         transfer1_1()
     elif "2" in answer:
         transfer1_2()
+    else:
+        bus1()
 
 def transfer1_1():
     home()
@@ -1105,6 +1107,8 @@ def bus2():
         transfer2_1()
     elif "2" in answer:
         game_over()
+    else:
+        bus2()
 
 def transfer2_1():
     print(home)
@@ -1127,6 +1131,8 @@ def home():
         bus_stop1()
     elif "2" in answer:
         bus_stop2()
+    else:
+        home()
 
 def bus_stop1():
     print("\n23/11/1963, 13:15:") 
@@ -1148,6 +1154,8 @@ def bus_stop1():
     elif "2" in answer:
         game_over()
         print("\nYou left your gun back at your stay-in. Dallas State Police Officer J. D. Tippit shot you dead.") 
+    else:
+        bus_stop1()
 
 def bus_stop2():
     print("\n23/11/1963, 13:15:") 
@@ -1166,9 +1174,11 @@ def bus_stop2():
         jd_tippit1()
     elif "2" in answer:
         jd_tippit2()
+    else:
+        bus_stop2()
 
 def jd_tippit1():
-    game_over
+    game_over()
     print("\nGame Over. Dallas State Officer J. D. Tippit was warning you to dissarm and drop to the ground!") 
     
 def jd_tippit2():
@@ -1183,6 +1193,8 @@ def jd_tippit2():
         shooting1()
     elif "2" in answer:
         shooting2()
+    else:
+        jd_tippit2
 
 def shooting1():
     game_over()
@@ -1208,6 +1220,8 @@ def shooting2():
         shoe_store1()
     elif "2" in answer:
         shoe_store2()
+    else:
+        shooting1()
 
 def shoe_store1():
     game_over()
@@ -1227,6 +1241,8 @@ def shoe_store2():
         theatre1()
     elif "2" in answer:
         theatre2()
+    else:
+        shoe_store2()
 
 def theatre1():
     game_over()
