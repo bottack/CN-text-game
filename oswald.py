@@ -94,9 +94,9 @@ def jfk_death():
   print("\nBefore anyone can reach you, your world goes black. You have been shot in the head, and you are dead. The last thing you hear is the scream of your wife.")
   print("\n Do you want to continue? Y or N.")
   # take input()
-  answer = input("Continue? Y or N").lower()
+  answer = input("Continue? Y or N").upper()
 
-  if answer == "y":
+  if answer == "Y":
     # lead him to the NEXT ROOM()
     oswald1_1()
 
@@ -123,13 +123,11 @@ def oswald1_1():
   print("\n 2)Check your rifle.")
 
   # take input()
-  answer = input(">").lower()
-
+  answer = input()
   if answer == "1":
-    # lead him to the NEXT ROOM()
-    oswald_nerves()
+     oswald_nerves()
   elif answer == "2":
-    oswald_rifle()
+     oswald_rifle()
 
 def oswald_nerves():
     print("\nYou try to calm down. You try to focus on the task ahead of you. You can't get the idea out of your head that you may be here as a set-up.")
@@ -140,12 +138,11 @@ def oswald_nerves():
     print("\n 1)Take deep breaths, remember your military training")
     print("\n 2)Focus on the enormity of what you're about to do.")
     
-    answer = input(">").lower()
-    
+    answer = input()
     if answer == "1":
-        oswald_shoot()
+     oswald_shoot()
     elif answer == "2":
-        oswald_panic()
+     oswald_panic()
 
 def oswald_panic():
     print("\nYou think about how world history is going to pivot around your actions in the next few minutes. You hear the motorcade getting closer. You have a panic attack. Your heart is racing, you are shaking, your arms are tingling, and you feel like you are suffocating.")
@@ -153,7 +150,7 @@ def oswald_panic():
     print("\n What do you do?")
     print("\n1)Breathing exercises")
     print("\n2)Light a cigarette and focus on a comforting memory")
-    answer = input(">").lower()
+    answer = input()
     if answer == "1":
         oswald_nerves()
     elif answer == "2":
@@ -168,11 +165,12 @@ def oswald_rifle():
     print ("\nWhat do you do?")
     print ("\n1)Get ready to shoot.")
     print ("\n2)Check scope")
-    answer = input(">").lower
-    if answer == "1":
-        oswald_shoot()
-    elif answer == "2":
-        oswald_scope()
+    answer = input()
+    
+    if answer=="1":
+     oswald_shoot()
+    elif answer=="2":
+     oswald_scope()
 
 def oswald_scope():
     print("\nYou check the scope.")
@@ -184,7 +182,7 @@ def oswald_scope():
     print("\n1)Abort the mission. If they want to kill the president, they can do it without your help. Maybe you'll be arrested. But they wont have as much evidence.")
     print("\n2)Make a mental calculation for how to adjust for the inaccurate scope. If you're going to take the blame for killing the president, you may as well kill the president")
     print("\n3)See if it is possible, to protect the president. watch for threats, and shoot them before they can shoot JFK. Maybe you can get out of trouble if you protect him?")
-    answer = input(">").lower()
+    answer = input()
     if answer == "1":
         oswald_abort()
     elif answer == "2":
@@ -201,7 +199,7 @@ def oswald_protect():
     print("\nWhat do you do?")
     print("\n1)Shoot assassin.")
     print("\n2)Play your role. Shoot President.")
-    answer = input(">").lower()
+    answer = input()
     if answer == "1":
         oswald_shootassassin()
     elif answer =="2":
@@ -218,7 +216,7 @@ def oswald_shootassassin():
     print("\n It is time to leave. What do you do?")
     print("\n1)Drop rifle and leave")
     print("\n2)Hide rifle and leave")
-    answer=input(">").lower()
+    answer=input()
     if answer =="1":
         michaelstart()
     elif answer =="2":
@@ -235,7 +233,7 @@ def oswald_shoot():
     print("\nWhat do you do?")
     print("\n1)Shoot to kill.")
     print("\n2)Shoot to miss.")
-    answer = input(">").lower()
+    answer = input()
     if answer == "1":
         oswald_shoot_kill()
     elif answer == "2":
@@ -250,7 +248,7 @@ def oswald_shoot_kill():
     print("\nWhat do you do?")
     print("\n1)Hide your rifle and leave")
     print("\n Drop your rifle and leave")
-    answer = input(">")
+    answer = input()
     if answer =="1":
         michaelstart()
     elif answer == "2":
@@ -265,7 +263,7 @@ def oswald_shoot_miss():
     print("\nWhat do you do?")
     print("\n1)Drop your rifle and hurry out of the room")
     print("\n2)Carefully hide your rifle and leave the room")
-    answer = input(">").lower()
+    answer = input()
     if answer == "1":
         michaelstart()
     elif answer == "2":
@@ -279,7 +277,7 @@ def oswald_adjustshot():
     print("\nWhat do you do?")
     print("\n1)Try to hide the rifle, and leave")
     print("\n2)Drop the rifle and go.")
-    answer = input(">").lower
+    answer = input()
     if answer == "1":
         michaelstart()
     elif answer == "2":
@@ -294,7 +292,7 @@ def oswald_abort():
     print("\nWhat do you do?")
     print("\n1)Finish hiding your rifle, and leave")
     print("\n2)Just leave")
-    answer = input(">").lower
+    answer = input()
     if answer == "1":
         michaelstart()
     elif answer == "2":
