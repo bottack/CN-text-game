@@ -1049,18 +1049,14 @@ def game_cleared():
 
 def play_again():
     spacing()
-    print("PRESS Y YO PLAY AGAIN -_-")
+    print("THANK YOU FOR PLAYING!")
     spacing()
+    play_again=input("PRESS Y TO PLAY AGAIN")
 
-    press_y=input("")
-
-    if press_y=="y"or"Y":
-        spacing()
-        the_arrest()
+    if play_again == "y" or "Y":
+         start_game()
     else:
-        if input != "y" or "Y":
-            spacing()
-            game_over()
+        exit()
 
 def the_arrest():
     spacing()
@@ -1361,6 +1357,13 @@ def theatre2():
     spacing()
     game_cleared()
     spacing()
+    play_again()
 
-typewrite(title)
-the_arrest()
+def start_game():
+    typewrite(title)
+    the_arrest()
+
+def end_game():
+    print("THANK YOU FOR PLAYING! ")
+
+start_game()
