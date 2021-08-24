@@ -1021,7 +1021,6 @@ def game_title():
     print("░█░ █▀█ ██▄     █▄█ ▄█ ▀▄▀▄▀ █▀█ █▄▄ █▄▀   █▀▄ ██▄ █▄▄ █▄█ █▀▄ █▄▀ ▄   ░█░ █▀█ ██▄   █▀█ █▀▄ █▀▄ ██▄ ▄█ ░█░")
     print("\n")
     
-
 def game_over():
     print("\n")
     print("█▀▀ ▄▀█ █▀▄▀█ █▀▀   █▀█ █░█ █▀▀ █▀█ ░   █▄█ █▀█ █░█   █▀▄ █ █▀▀ █▀▄ █▀▀ █▀▄   ▀ ▄▀")
@@ -1047,14 +1046,16 @@ def play_again():
     if press_y=="y"or"Y":
         the_arrest()
     else:
-        game_over()
+        if 'y' or 'Y' !in input:
+            game_over()
 
 def the_arrest():
     print("\n")
     dealey_plaza()
 
 def dealey_plaza():
-    print("\n23/11/1963, 12:40:")
+    print("\nNovemeber 23, 1963")
+    print("\n12:40")
     print("\nYou run acrross Dealey Plaza and two City Buses approach going in opposite directions.")
     print("\nBus 1 is headed to North Oak Cliff and Bus 2 is headed to South Oak Cliff.") 
     print("\nWhich Bus do you take? ")
@@ -1068,10 +1069,12 @@ def dealey_plaza():
     elif "2" in answer:
         bus2()
     else:
-        dealey_plaza()
+        if '1' or '2' !in input:
+            dealey_plaza()
 
 def bus1():
-    print("\n23/11/1963, 12:50:") 
+    print("\nNovemeber 23, 1963 12:50:")
+    print("\n12:50")
     print("\nYou're stuck in heavy traffic, escape is unlikely and paranoia thickens.") 
     print("\nEveryone is looking at you, whispering.") 
     print("\nYou are disgruntled and frustrated so you are going to...")
@@ -1085,7 +1088,8 @@ def bus1():
     elif "2" in answer:
         transfer1_2()
     else:
-        bus1()
+        if '1' or '2' !in input:
+            bus1()
 
 def transfer1_1():
     home()
@@ -1094,7 +1098,8 @@ def transfer1_2():
     home()
    
 def bus2():
-    print("\n23/11/1963, 12:50:") 
+    print("\nNovemeber 23, 1963 12:50:")
+    print("\n12:50")
     print("\nYou're stuck in heavy traffic, escape is unlikely and paranoia thickens.") 
     print("\nEveryone is looking at you, whispering.") 
     print("\nYou are disgruntled and frustrated so you are going to...")
@@ -1108,7 +1113,8 @@ def bus2():
     elif "2" in answer:
         game_over()
     else:
-        bus2()
+        if '1' or '2' !in input:
+            bus2()
 
 def transfer2_1():
     print(home)
@@ -1118,7 +1124,8 @@ def transfer2_2():
     print("\nGame Over. State Police raided the bus and you were shot and killed on sight!")
 
 def home():
-    print("\n23/11/1963, 13:00:") 
+    print("\nNovemeber 23, 1963")
+    print("\n13:00") 
     print("\nYou arrive at your stay in. The House keeper Earlene Roberts greets you and makes small talk.")
     print("\nThere is no time to waste, every second counts and Police sirens are rampant everywhere.")
     print("\nYou decide to...")
@@ -1132,14 +1139,16 @@ def home():
     elif "2" in answer:
         bus_stop2()
     else:
-        home()
+        if '1' or '2' !in input:
+            home()
 
 def bus_stop1():
-    print("\n23/11/1963, 13:15:") 
+    print("\nNovemeber 23, 1963")
+    print("\n13:15")
     print("\nYou're at the bus stop and a Dallas State Police Car drives past you at high speed.")
     print("The car doubles back and turns around and steers towards you.")
     print("\n The Police Car approcahes and pulls up some feet ahead of you")
-    print("\n\As the blinding lights fill you with despair the officer driving speak from the window.")
+    print("\nAs the blinding lights fill you with despair the officer driving speak from the window.")
     print("\nHe's shouting but you can not hear a thing from the siren.")
     print("\nThe driver's side door opens as the Police Officer steps out")
     print("\n1. The Officer just want's to ask something so you play along ")
@@ -1155,10 +1164,12 @@ def bus_stop1():
         game_over()
         print("\nYou left your gun back at your stay-in. Dallas State Police Officer J. D. Tippit shot you dead.") 
     else:
-        bus_stop1()
+        if '1' or '2' !in input:
+            bus_stop1()
 
 def bus_stop2():
-    print("\n23/11/1963, 13:15:") 
+    print("\nNovemeber 23, 1963")
+    print("\n13:15") 
     print("\nYou are at the Bus Stop and a Dallas State Police Car drives past you at high speed.")
     print("\nThe car doubles back, turns around and steers towards you.")
     print("\n The Police Car approcahes and pulls up some feet ahead of you")
@@ -1175,7 +1186,8 @@ def bus_stop2():
     elif "2" in answer:
         jd_tippit2()
     else:
-        bus_stop2()
+        if '1' or '2' !in input:
+            bus_stop2()
 
 def jd_tippit1():
     game_over()
@@ -1194,7 +1206,8 @@ def jd_tippit2():
     elif "2" in answer:
         shooting2()
     else:
-        jd_tippit2
+        if '1' or '2' !in input:
+            jd_tippit2
 
 def shooting1():
     game_over()
@@ -1205,7 +1218,8 @@ def shooting1():
     print("\nThe Emergency Response Unit watched you across from the across the junction and responded with Leathal Force")
 
 def shooting2():
-    print("\n23/11/1963, 13:30:") 
+    print("\nNovemeber 23, 1963")
+    print("\n13:30") 
     print("\nYou run around the block and stumble into George's Shoe Store.")
     print("\nIt's quite busy and the manager Jonny Brewer greets you.")
     print("\nAs sirens get louder, more and more police cars survey the area.")
@@ -1221,14 +1235,16 @@ def shooting2():
     elif "2" in answer:
         shoe_store2()
     else:
-        shooting1()
+        if '1' or '2' !in input:
+            shooting1()
 
 def shoe_store1():
     game_over()
     print("\nGame Over. Jonny could smell the danger off you as soon as you walked in, he shoots you the second you reach for your gun.")
 
 def shoe_store2():
-    print("\n23/11/1963, 13:40:") 
+    print("\nNovemeber 23, 1963")
+    print("\n13:40") 
     print("\nYou run down to the Texas Theatre and there is nobody at the Ticket Desk so you stroll on in.")
     print("\nDallas State Police Officer Nick McDonald sees this and follows you inside")
     print("\nHis foot steps echo behind yours so you clasp at your gun")
@@ -1242,7 +1258,8 @@ def shoe_store2():
     elif "2" in answer:
         theatre2()
     else:
-        shoe_store2()
+        if '1' or '2' !in input:
+            shoe_store2()
 
 def theatre1():
     game_over()
