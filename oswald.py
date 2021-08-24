@@ -1014,262 +1014,343 @@ def michaelstart():
 start()
 
 # The code block below pertains to the 3rd part: The arrest. Subject to changes, text art etc. The code block above has not been modified
+def spacing():
+    for i in range(2):
+        print("\n")
 
 def game_title():
-    print("\n")
+    spacing()
     print("▀█▀ █░█ █▀▀     █▀█ █▀ █░█░█ ▄▀█ █░░ █▀▄   █▀█ █▀▀ █▀▀ █▀█ █▀█ █▀▄ ▀   ▀█▀ █░█ █▀▀   ▄▀█ █▀█ █▀█ █▀▀ █▀ ▀█▀")
     print("░█░ █▀█ ██▄     █▄█ ▄█ ▀▄▀▄▀ █▀█ █▄▄ █▄▀   █▀▄ ██▄ █▄▄ █▄█ █▀▄ █▄▀ ▄   ░█░ █▀█ ██▄   █▀█ █▀▄ █▀▄ ██▄ ▄█ ░█░")
-    print("\n")
     
 def game_over():
-    print("\n")
+    spacing()
     print("█▀▀ ▄▀█ █▀▄▀█ █▀▀   █▀█ █░█ █▀▀ █▀█ ░   █▄█ █▀█ █░█   █▀▄ █ █▀▀ █▀▄ █▀▀ █▀▄   ▀ ▄▀")
     print("█▄█ █▀█ █░▀░█ ██▄   █▄█ ▀▄▀ ██▄ █▀▄ ▄   ░█░ █▄█ █▄█   █▄▀ █ ██▄ █▄▀ ██▄ █▄▀   ▄ ▀▄")
-    print("\n")
     play_again()
 
 def game_cleared():
-    print("\n")
+    spacing()
     print("█▀▀ ▄▀█ █▀▄▀█ █▀▀   █▀▀ █░░ █▀▀ ▄▀█ █▀█ █▀▀ █▀▄")
     print("█▄█ █▀█ █░▀░█ ██▄   █▄▄ █▄▄ ██▄ █▀█ █▀▄ ██▄ █▄▀")
-    print("\n")
+    spacing()
     play_again()
 
 def play_again():
-    print("\n")
+    spacing()
     print("█▀█ █▀█ █▀▀ █▀ █▀   █░█ █▄█ █░█   ▀█▀ █▀█   █▀█ █░░ ▄▀█ █▄█   ▄▀█ █▀▀ ▄▀█ █ █▄░█")
     print("█▀▀ █▀▄ ██▄ ▄█ ▄█   ░░░ ░█░ ░░░   ░█░ █▄█   █▀▀ █▄▄ █▀█ ░█░   █▀█ █▄█ █▀█ █ █░▀█")
-    print("\n")
+    spacing()
 
     press_y=input("")
 
     if press_y=="y"or"Y":
+        spacing()
         the_arrest()
     else:
         if input != '1' or '2':
+            spacing()
             game_over()
 
 def the_arrest():
-    print("\n")
+    spacing()
     dealey_plaza()
 
 def dealey_plaza():
+    spacing()
     print("\nNovemeber 23, 1963")
     print("\n12:40")
+    spacing()
     print("\nYou run acrross Dealey Plaza and two City Buses approach going in opposite directions.")
     print("\nBus 1 is headed to North Oak Cliff and Bus 2 is headed to South Oak Cliff.") 
     print("\nWhich Bus do you take? ")
+    spacing()
     print("\n1. Bus 1")
     print("\n2. Bus 2")
+    spacing()
     
     answer = input("\n")
 
     if "1" in answer:
+        spacing()
         bus1()
     elif "2" in answer:
+        spacing()
         bus2()
     else:
         if input != '1' or '2':
+            spacing()
             dealey_plaza()
 
 def bus1():
     print("\nNovemeber 23, 1963 12:50:")
     print("\n12:50")
+    spacing()
     print("\nYou're stuck in heavy traffic, escape is unlikely and paranoia thickens.") 
     print("\nEveryone is looking at you, whispering.") 
     print("\nYou are disgruntled and frustrated so you are going to...")
+    spacing()
     print("\n1. You ask the driver to let you transfer and take a Taxi Cab")
     print("\n2. You stay on the bus, it is far too risky to stay in public")
+    spacing()
 
     answer = input("\n")
 
     if "1" in answer:
+        spacing()
         transfer1_1()
     elif "2" in answer:
+        spacing()
         transfer1_2()
     else:
         if input != '1' or '2':
+            spacing()
             bus1()
 
 def transfer1_1():
+    spacing()
     home()
 
 def transfer1_2():
+    spacing()
     home()
    
 def bus2():
+    spacing()
     print("\nNovemeber 23, 1963 12:50:")
     print("\n12:50")
+    spacing()
     print("\nYou're stuck in heavy traffic, escape is unlikely and paranoia thickens.") 
     print("\nEveryone is looking at you, whispering.") 
     print("\nYou are disgruntled and frustrated so you are going to...")
+    spacing()
     print("\n1. Ask the driver to let you transfer and take a Taxi Cab")
     print("\n2. Stay on the bus, it is far too risky to stay in public")
+    spacing()
 
     answer = input("\n")
 
     if "1" in answer:
+        spacing()
         transfer2_1()
     elif "2" in answer:
+        spacing()
+        print("\nGame Over. The reason for Traffic was a blockade setup by Dallas Police.")
+        print("\nThe City Bus you took was raided and the Radio Broadcast instuction was to shoot you on sight.")
+        spacing()
         game_over()
     else:
         if input != '1' or '2':
+            spacing()
             bus2()
 
 def transfer2_1():
-    print(home)
+    spacing()
+    home()
 
 def transfer2_2():
+    spacing()
     game_over()
+    spacing()
     print("\nGame Over. State Police raided the bus and you were shot and killed on sight!")
 
 def home():
+    spacing()
     print("\nNovemeber 23, 1963")
-    print("\n13:00") 
+    print("\n13:00")
+    spacing()
     print("\nYou arrive at your stay in. The House keeper Earlene Roberts greets you and makes small talk.")
     print("\nThere is no time to waste, every second counts and Police sirens are rampant everywhere.")
     print("\nYou decide to...")
+    spacing()
     print("\n1. Speak to Earlene, pretend you don't know anything, gather some belongings and catch the next Bus out of town")
     print("\n2. Ignore Earlene, quickly change clothes, grab your gun, money and catch the next Bus out of town")
+    spacing()
 
     answer = input("\n")
 
     if "1" in answer:
+        spacing()
         bus_stop1()
     elif "2" in answer:
+        spacing()
         bus_stop2()
     else:
         if input != '1' or '2':
+            spacing()
             home()
 
 def bus_stop1():
+    spacing()
     print("\nNovemeber 23, 1963")
     print("\n13:15")
+    spacing()
     print("\nYou're at the bus stop and a Dallas State Police Car drives past you at high speed.")
     print("The car doubles back and turns around and steers towards you.")
     print("\n The Police Car approcahes and pulls up some feet ahead of you")
     print("\nAs the blinding lights fill you with despair the officer driving speak from the window.")
     print("\nHe's shouting but you can not hear a thing from the siren.")
     print("\nThe driver's side door opens as the Police Officer steps out")
+    spacing()
     print("\n1. The Officer just want's to ask something so you play along ")
     print("\n2. You are not taking any chances and fire as many rounds as you can at the Police Officer")
+    spacing()
     
     answer = input("\n")
 
     if "1" in answer:
-        game_cleared()
+        spacing()
         print("\nDalls Police Officer J. D. Tippit was warning you to dissarm and drop to the ground!")
         print("\nYou were identified from the description broadcasted on State radio...")
+        game_cleared()
     elif "2" in answer:
+        spacing()
+
+        print("\nYou left your gun back at your stay-in. Dallas State Police Officer J. D. Tippit shot you dead.")
         game_over()
-        print("\nYou left your gun back at your stay-in. Dallas State Police Officer J. D. Tippit shot you dead.") 
     else:
         if input != '1' or '2':
+            spacing()
             bus_stop1()
 
 def bus_stop2():
+    spacing()
     print("\nNovemeber 23, 1963")
-    print("\n13:15") 
+    print("\n13:15")
+    spacing()
     print("\nYou are at the Bus Stop and a Dallas State Police Car drives past you at high speed.")
     print("\nThe car doubles back, turns around and steers towards you.")
     print("\n The Police Car approcahes and pulls up some feet ahead of you")
     print("\nAs the blinding lights fill you with despair and the screeching siren fills your ear the officer driving speaks from the window.")
     print("\nHe's shouting but you can not hear a thing due to the siren.")
     print("\nThe driver's side door opens as the Police Officer steps out...")
+    spacing()
     print("\n1. The Officer just want's to ask something so you play along ")
     print("\n2. You are not taking any chances and fire as many rounds as you can into the vehicler")
+    spacing()
 
     answer = input("\n")
 
     if "1" in answer:
+        spacing()
         jd_tippit1()
     elif "2" in answer:
+        spacing()
         jd_tippit2()
     else:
         if input != '1' or '2':
+            spacing()
             bus_stop2()
 
 def jd_tippit1():
+    spacing()
+    print("\nGame Over. Dallas State Officer J. D. Tippit was warning you to dissarm and drop to the ground!")
+    spacing() 
     game_over()
-    print("\nGame Over. Dallas State Officer J. D. Tippit was warning you to dissarm and drop to the ground!") 
     
 def jd_tippit2():
+    spacing()
     print("\nYou have killed a State Police Officer, 4 founds went off someone must have heard it all...")
     print("\nThere are no signs of pursuing Police Units so you...")
+    spacing()
     print("\n1. Look around for witnesses and tie up all loose ends -- the getaway will be clean.")
     print("\n2. Flee. Run as far away from the area as possible. There's a shoe store nearby you can blend in!")
+    spacing()
 
     answer = input("\n")
 
     if "1" in answer:
+        spacing()
         shooting1()
     elif "2" in answer:
+        spacing()
         shooting2()
     else:
         if input != '1' or '2':
+            spacing()
             jd_tippit2
 
 def shooting1():
-    game_over()
+    spacing()
     print("\nGame Over. You were shot dead by Dallas State Police's Emrgency Respose Unit!")
     print("\nYou acted suspicious, the house keeper Earlene Roberts called the Police immediately after she saw you take your gun and run.")
     print("\nShe noticed the clothes you wore when you came home fit the suspect's description")
     print("\nEarlene watched you gun down Officer J. D. Tippit in cold blood from the window.")
     print("\nThe Emergency Response Unit watched you across from the across the junction and responded with Leathal Force")
+    spacing()
+    game_over()
 
 def shooting2():
+    spacing()
     print("\nNovemeber 23, 1963")
-    print("\n13:30") 
+    print("\n13:30")
+    spacing()
     print("\nYou run around the block and stumble into George's Shoe Store.")
     print("\nIt's quite busy and the manager Jonny Brewer greets you.")
     print("\nAs sirens get louder, more and more police cars survey the area.")
     print("\nEveryone in the store is talking about the shooting at the Motorcade.")
     print("\nYou are getting sloppy, tired and scared. You have made your mind up...")
+    spacing()
     print("\n1. You have come too far to let it end here, take a hostage and take control. This will work!")
     print("\n2. Hang back for a bit then leave for the Theatre down the road that should be perfect cover. Nobody should know about the shooting in there.")
+    spacing()
 
     answer = input("\n")
 
     if "1" in answer:
+        spacing()
         shoe_store1()
     elif "2" in answer:
         shoe_store2()
     else:
         if input != '1' or '2':
+            spacing()
             shooting1()
 
 def shoe_store1():
-    game_over()
+    spacing()
     print("\nGame Over. Jonny could smell the danger off you as soon as you walked in, he shoots you the second you reach for your gun.")
+    spacing()
+    game_over
 
 def shoe_store2():
     print("\nNovemeber 23, 1963")
-    print("\n13:40") 
+    print("\n13:40")
+    spacing() 
     print("\nYou run down to the Texas Theatre and there is nobody at the Ticket Desk so you stroll on in.")
     print("\nDallas State Police Officer Nick McDonald sees this and follows you inside")
     print("\nHis foot steps echo behind yours so you clasp at your gun")
+    spacing()
     print("\n1 Do not give the Police Offer a chance to draw his weapon, shoot first! ")
     print("\n2 You have done a lot of running, you are tired and out of ideas. You put hands up and surrender")
+    spacing()
 
     answer = input("\n")
 
     if "1" in answer:
+        spacing()
         theatre1()
     elif "2" in answer:
+        spacing()
         theatre2()
     else:
         if input != '1' or '2':
+            spacing()
             shoe_store2()
 
 def theatre1():
-    game_over()
+    spacing()
     print("\nGame Over. You fired 4 shots killing Police Officer J. D. Tippit.")
     print("\nYour Gun jammed up and Police Officer Nick Mcdonals shot you dead")
+    spacing()
+    game_over
 
 def theatre2():
+    spacing()
+    print("\nGame cleared. You are now in custody. You have been baught but you are still alive.")
+    spacing()
     game_cleared()
-    print("\n")
-    print("\n You are now in custody. Caught but alive.")
+    spacing()
 
 game_title()
 the_arrest()
