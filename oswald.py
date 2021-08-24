@@ -1046,7 +1046,7 @@ def play_again():
     if press_y=="y"or"Y":
         the_arrest()
     else:
-        if 'y' or 'Y' !in input:
+        if input != '1' or '2':
             game_over()
 
 def the_arrest():
@@ -1069,7 +1069,7 @@ def dealey_plaza():
     elif "2" in answer:
         bus2()
     else:
-        if '1' or '2' !in input:
+        if input != '1' or '2':
             dealey_plaza()
 
 def bus1():
@@ -1088,7 +1088,7 @@ def bus1():
     elif "2" in answer:
         transfer1_2()
     else:
-        if '1' or '2' !in input:
+        if input != '1' or '2':
             bus1()
 
 def transfer1_1():
@@ -1113,7 +1113,7 @@ def bus2():
     elif "2" in answer:
         game_over()
     else:
-        if '1' or '2' !in input:
+        if input != '1' or '2':
             bus2()
 
 def transfer2_1():
@@ -1139,7 +1139,7 @@ def home():
     elif "2" in answer:
         bus_stop2()
     else:
-        if '1' or '2' !in input:
+        if input != '1' or '2':
             home()
 
 def bus_stop1():
@@ -1164,7 +1164,7 @@ def bus_stop1():
         game_over()
         print("\nYou left your gun back at your stay-in. Dallas State Police Officer J. D. Tippit shot you dead.") 
     else:
-        if '1' or '2' !in input:
+        if input != '1' or '2':
             bus_stop1()
 
 def bus_stop2():
@@ -1186,7 +1186,7 @@ def bus_stop2():
     elif "2" in answer:
         jd_tippit2()
     else:
-        if '1' or '2' !in input:
+        if input != '1' or '2':
             bus_stop2()
 
 def jd_tippit1():
@@ -1206,7 +1206,7 @@ def jd_tippit2():
     elif "2" in answer:
         shooting2()
     else:
-        if '1' or '2' !in input:
+        if input != '1' or '2':
             jd_tippit2
 
 def shooting1():
@@ -1235,7 +1235,7 @@ def shooting2():
     elif "2" in answer:
         shoe_store2()
     else:
-        if '1' or '2' !in input:
+        if input != '1' or '2':
             shooting1()
 
 def shoe_store1():
@@ -1258,7 +1258,7 @@ def shoe_store2():
     elif "2" in answer:
         theatre2()
     else:
-        if '1' or '2' !in input:
+        if input != '1' or '2':
             shoe_store2()
 
 def theatre1():
