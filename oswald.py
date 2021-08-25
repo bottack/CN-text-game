@@ -1007,8 +1007,70 @@ def oswald_abort():
     elif answer == "2":
         michaelstart()
 
-def michaelstart():
- print("\n this is where michael's story starts.")
+ def michaelstart():
+ print(""" 
+
+####################################################################################################
+##.                                                                                               (#
+##.(#############################################################################################.(#
+##.(############                   %######################                #######################.(#
+##.(############          #####    %#########################               /####################.(#
+##.(############           %##     %###########################                ##################.(#
+##.(############  ###########(     %##############################               /###############.(#
+##.(############ ###,  #########   %################################                #############.(#
+##.(############ ##   ######  #################/                                      /##########.(#
+##.(############     /#####        %###########/                                         ########.(#
+##.(############     #####         %###########/                                           ######.(#
+##.(##########%     #######        %###########/                                         ########.(#
+##.(###################  ###       %###########/                                      %##########.(#
+##.(############          ###*     %################################                #############.(#
+##.(############           ####    %##############################               %###############.(#
+##.(############             %     %###########################                ##################.(#
+##.(###########,            ###    #########################(               %####################.(#
+##.(##########            .###    #######################%                #######################.(#
+##.(#############################################################################################.(#
+##.""")                             
+
+print("\nYou now have to leave the depositary on the 6th floor and avoid raising suspicion of your colleagues and detection by the Authoraties best you can.")
+print("\nYou move towards the lift and stairwell heart racing, sweat profuseley dripping from your brow.")
+print("\nThe blare of sirens draws ever nearer and you realise your window of opportunity to get out unhindered is narrowing with every passing second.") 
+print("\nWhat do you do?")
+print("\n1)Leave in a calm and collected manner")
+print("\n2)Run for the hills. Exiting the building as quick as humanly possible") 
+print("\n3)Move to an alternate part of the building and lay low until the coast is clear")
+
+answer = input()
+if answer == "1":
+    dep_escape_calm()
+    
+elif answer == "2":
+    dep_escape_run()
+
+elif answer == "3":
+    dep_escape_hide()
+
+def dep_escape_calm():
+  print("\nYou make your way down the six flights of stairs, making a momentary stop at the vending machine no the Third floor, grabbing an ice cold can of Coca-Cola from the vending machine to quench your desert dry mouth caused by the adrenaline coursing through your body!")
+  print("\nBy making this pit stop you come face-to-face with a police officer making an initial search of the building!")
+  print("\nYou keep your composure and take a sip of your beverage as the officer demands you identify yourself!")
+  print("\nOut of nowhere your Boss appears and answers the officer for you. He states you are an employee and for him to continue on up the remaining stairs to the Sixth floor")
+  print("\nYou make quick pleasantries with your Boss and continue calmly on your way down the remaining flights of stairs to the buildings exit.")
+  print("\nYou have made it to the exit, continuing on to Dealey Plaza.")
+
+def dep_escape_run():
+  print("\nThe adrenaline coursing through your veins has got the better of you, initiating one of the most inherent animalistic responses a human can face in a high stress situation…")
+  print("\n... TO RUN!")
+  print("\nYou dart down all six flights of stairs to the ground floor and burst through the exit doors to outside to make your way to Dealey Plaza.")
+  print("\nIn your state of haste, you fail to recognise your Boss has just witnessed you flee at a rampaging rate.")
+  print("\nIt takes no time at all for him to realise something isn’t right and flags down the first Police officer he sees entering the building, informing them of your rapid departure!")
+  print("\nYou are now a person of interest to authorities with a radio transmission sent out for all available units to be on the lookout!")
+
+def dep_escape_hide():
+  print("\nTo avoid arousing suspicion by fleeing, no matter how calm or hurried, you move to the employee restroom on the opposite side of the building and hang tight until all officers are in the book depository.")
+  print("\nYou hear all your colleagues making their way to the book depository with officers to get a first hand view of where the assassin may have carried out this heinous crime!")
+  print("\nOnce the coast is clear, you calmly make your way down the remaining flights of stairs and make your way through the exit making your way to Dealey Plaza.")
+
+
 
 # start the game
 start()
