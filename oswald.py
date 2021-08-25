@@ -1352,7 +1352,7 @@ def theatre1():
 
 def theatre2():
     spacing()
-    print("Game cleared. You are now in custody. You have been baught but you are still alive.")
+    print("Game cleared. You are now in custody. You have been caught but you are still alive.")
     spacing()
     game_cleared()
     spacing()
