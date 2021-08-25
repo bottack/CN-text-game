@@ -1064,12 +1064,12 @@ def the_arrest():
 
 def dealey_plaza():
     spacing()
-    print("Novemeber 23, 1963\n")
+    print("November 23, 1963\n")
     print("12:40 PM")
     spacing()
     print("You run acrross Dealey Plaza and two City Buses approach going in opposite directions.")
     print("Bus 1 is headed to North Oak Cliff and Bus 2 is headed to South Oak Cliff.") 
-    print("Which Bus do you take? ")
+    print("Which Bus do you take?")
     spacing()
     print("1. Bus 1")
     print("2. Bus 2")
@@ -1089,15 +1089,15 @@ def dealey_plaza():
             dealey_plaza()
 
 def bus1():
-    print("Novemeber 23, 1963\n")
+    print("November 23, 1963\n")
     print("12:50")
     spacing()
     print("You're stuck in heavy traffic, escape is unlikely and paranoia thickens.") 
     print("Everyone is looking at you, whispering.") 
-    print("You are disgruntled and frustrated so you are going to...")
+    print("You are disgruntled and frustrated so you are going to:")
     spacing()
-    print("1. You ask the driver to let you transfer and take a Taxi Cab")
-    print("2. You stay on the bus, it is far too risky to stay in public")
+    print("1. Ask the driver to let you transfer then take a Taxi Cab.")
+    print("2. Stay on the bus as it is far too risky to stay out in public.")
     spacing()
 
     answer = input("")
@@ -1123,15 +1123,15 @@ def transfer1_2():
    
 def bus2():
     spacing()
-    print("Novemeber 23, 1963\n")
+    print("November 23, 1963\n")
     print("12:50")
     spacing()
     print("You're stuck in heavy traffic, escape is unlikely and paranoia thickens.") 
     print("Everyone is looking at you, whispering.") 
-    print("You are disgruntled and frustrated so you are going to...")
+    print("You are disgruntled and frustrated so you are going to:")
     spacing()
     print("1. Ask the driver to let you transfer and take a Taxi Cab")
-    print("2. Stay on the bus, it is far too risky to stay in public")
+    print("2. Stay on the bus as it is far too risky to stay out in public.")
     spacing()
 
     answer = input("")
@@ -1158,19 +1158,19 @@ def transfer2_2():
     spacing()
     game_over()
     spacing()
-    print("Game Over. State Police raided the bus and you were shot and killed on sight!")
+    print("Game Over. Dallas Police raided the bus and you were shot and killed on sight!")
 
 def home():
     spacing()
-    print("Novemeber 23, 1963\n")
+    print("November 23, 1963\n")
     print("13:00")
     spacing()
     print("You arrive at your stay in. The House keeper Earlene Roberts greets you and makes small talk.")
     print("There is no time to waste, every second counts and Police sirens are rampant everywhere.")
     print("You decide to...")
     spacing()
-    print("1. Speak to Earlene, pretend you don't know anything, gather some belongings and catch the next Bus out of town")
-    print("2. Ignore Earlene, quickly change clothes, grab your gun, money and catch the next Bus out of town")
+    print("1. Speak to Earlene, pretend you do not know anything, gather some belongings and catch the next Bus out of town.")
+    print("2. Ignore Earlene, quickly change clothes, grab your gun, IDs and money then catch the next Bus out of town.")
     spacing()
 
     answer = input("")
@@ -1188,31 +1188,30 @@ def home():
 
 def bus_stop1():
     spacing()
-    print("Novemeber 23, 1963\n")
+    print("November 23, 1963\n")
     print("13:15")
     spacing()
-    print("You're at the bus stop and a Dallas State Police Car drives past you at high speed.")
-    print("The car doubles back and turns around and steers towards you.")
-    print("The Police Car approcahes and pulls up some feet ahead of you")
-    print("As the blinding lights fill you with despair the officer driving speak from the window.")
-    print("He's shouting but you can not hear a thing from the siren.")
-    print("The driver's side door opens as the Police Officer steps out")
+    print("You are at the Bus Stop and a Dallas Police Car drives past you at high speed.")
+    print("The Police Car doubles back, turns around and steers towards you.")
+    print("The Police Car approcahes and pulls up some feet ahead of you.")
+    print("As the blinding lights fill you with despair the Police Officer driving speaks from the window.")
+    print("He's shouting but you can not hear a thing as the siren screeches.")
+    print("The driver's side door opens as the Police Officer steps out.")
     spacing()
-    print("1. The Officer just want's to ask something so you play along ")
-    print("2. You are not taking any chances and fire as many rounds as you can at the Police Officer")
+    print("1. The Police Officer just want's to ask something so you play along.")
+    print("2. You are not taking any chances and fire as many rounds as you can at the Police Officer.")
     spacing()
     
     answer = input("")
 
     if "1" in answer:
         spacing()
-        print("Dalls Police Officer J. D. Tippit was warning you to dissarm and drop to the ground!")
-        print("You were identified from the description broadcasted on State radio...")
+        print("You were identified from the description broadcasted on State Radio.")
+        print("Dallas Police Officer J. D. Tippit was warning you to disarm and drop to the ground!")
         game_cleared()
     elif "2" in answer:
         spacing()
-
-        print("You left your gun back at your stay-in. Dallas State Police Officer J. D. Tippit shot you dead.")
+        print("You left your gun back at your stay-in. Dallas Police Officer J. D. Tippit shot you dead!")
         game_over()
     else:
         if input != '1' or '2':
@@ -1221,18 +1220,18 @@ def bus_stop1():
 
 def bus_stop2():
     spacing()
-    print("Novemeber 23, 1963\n")
+    print("November 23, 1963\n")
     print("13:15")
     spacing()
     print("You are at the Bus Stop and a Dallas State Police Car drives past you at high speed.")
     print("The car doubles back, turns around and steers towards you.")
     print("The Police Car approcahes and pulls up some feet ahead of you")
-    print("As the blinding lights fill you with despair and the screeching siren fills your ear the officer driving speaks from the window.")
-    print("He's shouting but you can not hear a thing due to the siren.")
-    print("The driver's side door opens as the Police Officer steps out...")
+    print("As the blinding lights fill you with despair the Police Officer driving speaks from the window.")
+    print("He's shouting but you can not hear a thing as the siren screeches.")
+    print("The driver's side door opens as the Police Officer steps out.")
     spacing()
-    print("1. The Officer just want's to ask something so you play along ")
-    print("2. You are not taking any chances and fire as many rounds as you can into the vehicler")
+    print("1. The Officer just want's to ask something so you play along.")
+    print("2. You are not taking any chances and fire as many rounds as you can into the vehicler.")
     spacing()
 
     answer = input("")
@@ -1250,17 +1249,18 @@ def bus_stop2():
 
 def jd_tippit1():
     spacing()
-    print("Game Over. Dallas State Officer J. D. Tippit was warning you to dissarm and drop to the ground!")
+    print("Game Over. Dallas Police Officer J. D. Tippit was warning you to dissarm and drop to the ground!")
+    print("The Police Radio Broadcast instruction was to shoot you on sight, you are dead!")
     spacing() 
     game_over()
     
 def jd_tippit2():
     spacing()
-    print("You have killed a State Police Officer, 4 founds went off someone must have heard it all...")
-    print("\nThere are no signs of pursuing Police Units so you...")
+    print("You have killed a State Police Officer, 4 founds went off and you are certain someone must have heard.")
+    print("\nThere are no signs of pursuing Police Units so you:")
     spacing()
-    print("1. Look around for witnesses and tie up all loose ends -- the getaway will be clean.")
-    print("2. Flee. Run as far away from the area as possible. There's a shoe store nearby you can blend in!")
+    print("1. Look around for nearby civillians and tie up all loose ends -- with no witnesses the getaway will be clean.")
+    print("2. Flee. Run as far away from the area as possible. There is a shoe store nearby you aare certain you can blend in.")
     spacing()
 
     answer = input("")
@@ -1278,17 +1278,16 @@ def jd_tippit2():
 
 def shooting1():
     spacing()
-    print("Game Over. You were shot dead by Dallas State Police's Emrgency Respose Unit!")
-    print("You acted suspicious, the house keeper Earlene Roberts called the Police immediately after she saw you take your gun and run.")
-    print("She noticed the clothes you wore when you came home fit the suspect's description")
-    print("Earlene watched you gun down Officer J. D. Tippit in cold blood from the window.")
-    print("The Emergency Response Unit watched you across from the across the junction and responded with Leathal Force")
+    print("Game Over. Dallas Police's Emergency Respose Unit watching you fron across the junction responded with Leathal Force!")
+    print("You acted suspicious, the House Keeper Earlene Roberts called Dallas Police immediately after seeing you take your gun and run.")
+    print("She also noticed the clothes you wore when you came home fit the suspect's description on the News Broadcast.")
+    print("Earlene watched you gun down Police Officer J. D. Tippit in cold blood from the window which is across from the Bus Stop.")
     spacing()
     game_over()
 
 def shooting2():
     spacing()
-    print("Novemeber 23, 1963\n")
+    print("November 23, 1963\n")
     print("13:30")
     spacing()
     print("You run around the block and stumble into George's Shoe Store.")
@@ -1320,15 +1319,15 @@ def shoe_store1():
     game_over
 
 def shoe_store2():
-    print("Novemeber 23, 1963\n")
+    print("November 23, 1963\n")
     print("13:40")
     spacing() 
     print("You run down to the Texas Theatre and there is nobody at the Ticket Desk so you stroll on in.")
-    print("Dallas State Police Officer Nick McDonald sees this and follows you inside")
-    print("His foot steps echo behind yours so you clasp at your gun")
+    print("Dallas Police Officer Nick McDonald notices your appeareance, sees this and follows you inside.")
+    print("His foot steps echo behind yours so you clasp at your gun...")
     spacing()
-    print("1 Do not give the Police Offer a chance to draw his weapon, shoot first! ")
-    print("2 You have done a lot of running, you are tired and out of ideas. You put hands up and surrender")
+    print("1 Do not give the Police Offer a chance to draw his weapon, shoot first.")
+    print("2 You have done a lot of running, you are tired and out of ideas. You put hands up and surrender.")
     spacing()
 
     answer = input("")
@@ -1347,7 +1346,7 @@ def shoe_store2():
 def theatre1():
     spacing()
     print("Game Over. You fired 4 shots killing Police Officer J. D. Tippit.")
-    print(" Your Gun jammed up and Police Officer Nick Mcdonals shot you dead")
+    print(" Your Gun jammed up and Dallas Police Officer Nick Mcdonald shot you dead.")
     spacing()
     game_over
 
